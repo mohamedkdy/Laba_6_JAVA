@@ -26,6 +26,6 @@ public class CustomWriter extends FilterWriter
 
     //метод зашифровывает символ
     private char encrypt(char input){
-        return (char)((input - key+2) );
+        return (char)((input - key) );
     }
 }
